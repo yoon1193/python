@@ -38,7 +38,7 @@ print(score.values())
 print(score.items())
 score["kim"]=44
 print(score["kim"])
-
+print()
 #string
 a='a24,sa'
 #a=[1] '2'라는 문자열을 리턴
@@ -47,7 +47,7 @@ a=a+',asdfasdf'
 print(a)
 b=a.split(',')
 print(b)
-
+print()
 #함수
 a=[10,20,30,40,50]
 b=[10,20,30,40,50]
@@ -66,7 +66,7 @@ print(len(a),len(b),len(c),len(d),len(e))
 
 a='hello'
 print(list(a))#list로 바꿈
-print(str('3.14'))
+print(str(3.14))
 print(str([1,2,3]))
 
 print(int(3.14))

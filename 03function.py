@@ -7,8 +7,8 @@ print(result)
 
 def mutiFunc(x):
     return x+1,x+2,x+3
-x1,x2,x3=mutiFunc(1)
-print(x1,x2,x3)
+result=mutiFunc(1)
+print(result)
 
 #람다식
 #함수를 만들어서 실행
